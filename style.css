@@ -1,0 +1,74 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('fon.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calc-container {
+    background-color: #ffffff; 
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5); 
+    width: 100%;
+    max-width: 450px;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 10;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-top: 0;
+    font-size: 24px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    border: none;
+    padding: 0;
+}
+
+legend, label {
+    font-weight: 600;
+    color: #444;
+    margin-bottom: 8px;
+    display: block;
+}
+
+input[type="number"], select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+fieldset label {
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.result-box {
+    margin-top: 25px;
+    padding: 15px;
+    background-color: #e8f5e9;
+    border: 2px solid #4CAF50;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #2e7d32;
+}
